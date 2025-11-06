@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'instruction';
+  src: url('../fonts/Instruction.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'f25bp';
+  src: url('../fonts/F25_Bank_Printer.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'seven-14-font';
+  src: url('../DSEG14-Modern/DSEG14Modern-Bold.woff');
+}
+
+
+@font-face {
+  font-family: 'seven-7-font';
+  src: url('../DSEG7-Modern/DSEG7Modern-Bold.ttf') format('truetype');
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto-regular";
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+
+  touch-action: none;
+  user-select: none;
+
+  /*overflow:hidden;*/    
+}

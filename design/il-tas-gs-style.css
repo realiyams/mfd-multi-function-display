@@ -1,0 +1,23 @@
+.il-pfd-one 
+.il-top-left-details {
+  position: absolute;
+  top: 125px;
+  left: 7px;
+  font-size: 14px;
+}
+
+.il-pfd-one
+.il-tas-value {
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: right;
+  width: 30px;
+}
+
+.il-pfd-one
+.il-gs-value {
+  padding-left: 5px;
+  font-size: 20px;
+  text-align: right;
+  width: 30px;
+}

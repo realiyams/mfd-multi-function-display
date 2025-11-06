@@ -1,0 +1,42 @@
+.il-pfd-one
+.il-time-estimation-container
+.il-time-eta-details {
+  width: 100%;
+  font-weight: bold;
+}
+
+.il-pfd-one
+.il-time-estimation-container
+.il-time-eta-details 
+.il-utc {
+  text-align: center;
+  color: green;
+  font-size: 14px;
+}
+
+.il-pfd-one
+.il-time-estimation-container
+.il-time-eta-details 
+.il-eta {
+  text-align: center;
+  color: green;
+  font-size: 14px;
+}
+
+.il-pfd-one
+.il-time-estimation-container
+.il-time-eta-details 
+.il-sat {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.il-pfd-one
+.il-time-estimation-container
+.il-time-eta-details 
+.il-isa {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}

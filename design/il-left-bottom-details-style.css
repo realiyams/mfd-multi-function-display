@@ -1,0 +1,18 @@
+.il-pfd-one
+.il-left-bottom-details {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 90px;
+  width: 100px;
+  /* color: rgba(63,251,246,255); */
+  color: red;
+}
+
+.il-pfd-one
+.il-xtk {
+  margin-top: 10px;
+}

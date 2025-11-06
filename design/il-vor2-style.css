@@ -1,0 +1,123 @@
+.il-pfd-one 
+.il-adf2-right-bottom {
+  position: absolute;
+  bottom: 90px;
+  right: 0px;
+  width: 100px;
+  height: 80px;
+  font-size: 16px;
+  color: red;
+  text-align: right;
+  padding: 5px;
+}
+
+.il-pfd-one
+.il-vor2 {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.il-pfd-one 
+.il-adf2-right-bottom 
+.il-adf-icon
+{
+  width:45%;
+  height: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 40px;
+  right: 0px;
+  bottom: 25px;
+
+  margin: auto;
+}
+
+.il-pfd-one 
+.garisBawah13 {
+  position: absolute;
+  top: 18px;
+  left: 26px;
+  border-left: 2px red solid;
+  height: 15px;
+}
+
+.il-pfd-one 
+.garisBawah14 {
+  position: absolute;
+  top: 42px;
+  left: 24px;
+  border-left: 2px red solid;
+  height: 17px;
+}
+
+.il-pfd-one
+.garisBawah15 {
+  position: absolute;
+  top: 42px;
+  left: 28px;
+  border-left: 2px red solid;
+  height: 17px;
+}
+
+.il-pfd-one
+.garisLurus12 {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  width: 8px;
+  height: 2px;
+  rotate: -50deg;
+  background-color: red;
+}
+
+.il-pfd-one
+.garisLurus13 {
+  position: absolute;
+  top: 35px;
+  left: 26px;
+  width: 8px;
+  height: 2px;
+  rotate: 50deg;
+  background-color: red;
+}
+
+.il-pfd-one 
+.garisLurus14 {
+  position: absolute;
+  top: 40px;
+  left: 26px;
+  width: 8px;
+  height: 2px;
+  rotate: -50deg;
+  background-color: red;
+}
+
+.il-pfd-one 
+.garisLurus15 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 9px;
+  height: 2px;
+  rotate: 50deg;
+  background-color: red;
+}
+
+.il-pfd-one
+.il-vor2-details {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  bottom: 0px;
+  font-size: 16px;
+  color: red;
+  text-align: left;
+  font-weight: bold;
+}
+
+.il-pfd-one
+.il-left-dme {
+  color: red;
+  font-size: small;
+}

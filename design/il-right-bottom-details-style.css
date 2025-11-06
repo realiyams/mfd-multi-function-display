@@ -1,0 +1,20 @@
+.il-pfd-one 
+.il-right-bottom-details {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+  width: 100px;
+  padding: 0px 5px 0px 5px;
+  
+  font-size: 16px;
+  /* color: rgba(159,207,204,255); */
+  color: red;
+  text-align: right;
+  font-weight: bold;
+}
+
+.il-pfd-one
+.il-dme {
+  font-size: 10px;
+}
