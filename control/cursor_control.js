@@ -5,33 +5,33 @@ let selectedCursor = 0;
 
 const cursorTarget = [
   '',
-  'il-left-bottom-vor1',
-  'il-left-bottom-details',
-  'il-adf2-right-bottom',
-  'il-right-bottom-details',
+  'vor1',
+  'fms',
+  'vor2',
+  'vor1-info',
 ];
 
 const elementCursorTarget = cursorTarget.map(value => {
   return document.getElementsByClassName(value);
 });
 
-const goTop = document.getElementById('PFD_ONE_goTop');
-const goDown = document.getElementById('PFD_ONE_goDown');
-const cursorBlinkButton = document.getElementById('PFD_ONE_blinkButtonCURSOR');
+const goTop = document.getElementById('MFD_goTop');
+const goDown = document.getElementById('MFD_goDown');
+const cursorBlinkButton = document.getElementById('MFD_blinkButtonCURSOR');
 
 const updateCursor = () => {
   for (let elements of elementCursorTarget) {
     for (let element of elements) {
-      element.classList.remove("il-cursor-selected");
+      element.classList.remove("cursor-selected");
     }
   }
 
   const currentElements = elementCursorTarget[selectedCursor];
   if (currentElements.length > 0) {
-    currentElements[0].classList.add("il-cursor-selected");
+    currentElements[0].classList.add("cursor-selected");
   }
 
-  if (blinkInterval && currentBlinkingElement !== document.querySelector('.il-cursor-selected')) {
+  if (blinkInterval && currentBlinkingElement !== document.querySelector('.cursor-selected')) {
     clearInterval(blinkInterval);
     blinkInterval = null;
     currentBlinkingElement = null;
@@ -50,7 +50,7 @@ goDown.addEventListener('click', () => {
 });
 
 const toggleBlink = () => {
-  const selectedElement = document.querySelector('.il-cursor-selected');
+  const selectedElement = document.querySelector('.cursor-selected');
 
   if (!selectedElement) {
     clearInterval(blinkInterval);
@@ -72,9 +72,9 @@ const toggleBlink = () => {
 
     currentBlinkingElement = selectedElement;
     blinkInterval = setInterval(() => {
-      selectedElement.classList.remove("il-cursor-selected");
+      selectedElement.classList.remove("cursor-selected");
       setTimeout(() => {
-        selectedElement.classList.add("il-cursor-selected");
+        selectedElement.classList.add("cursor-selected");
       }, 250);
     }, 500);
     cursorBlinkButton.textContent = `CURSOR STOP BLINK`;

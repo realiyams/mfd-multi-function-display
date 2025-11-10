@@ -1,5 +1,3 @@
-// import pfd from "./pfd";
-
 let intervalId = null;
 
 function getRandomInRange(min, max) {
@@ -13,21 +11,21 @@ function toggleResetAll() {
     randomizeButton.textContent = "START RANDOMIZE";
   }
 
-  pfd.setPurpleNeedle(0);
-  pfd.setBlueNeedle(0);
-  pfd.setGreenNeedle(0);
-  pfd.setYellowNeedle(0);
-  pfd.setWhiteNeedle(0);
-  pfd.setHeading(360);
+  mfd.setPurpleNeedle(0);
+  mfd.setBlueNeedle(0);
+  mfd.setGreenNeedle(0);
+  mfd.setYellowNeedle(0);
+  mfd.setWhiteNeedle(0);
+  mfd.setHeading(360);
 }
 
 function randomizeValues() {
-  pfd.setPurpleNeedle(getRandomInRange(0, 360).toFixed(2));
-  pfd.setBlueNeedle(getRandomInRange(0, 360).toFixed(2));
-  pfd.setGreenNeedle(getRandomInRange(0, 360).toFixed(2));
-  pfd.setYellowNeedle(getRandomInRange(0, 360).toFixed(2));
-  pfd.setWhiteNeedle(getRandomInRange(0, 360).toFixed(2));
-  pfd.setHeading(getRandomInRange(0, 360).toFixed(2));
+  mfd.setPurpleNeedle(getRandomInRange(0, 360).toFixed(2));
+  mfd.setBlueNeedle(getRandomInRange(0, 360).toFixed(2));
+  mfd.setGreenNeedle(getRandomInRange(0, 360).toFixed(2));
+  mfd.setYellowNeedle(getRandomInRange(0, 360).toFixed(2));
+  mfd.setWhiteNeedle(getRandomInRange(0, 360).toFixed(2));
+  mfd.setHeading(getRandomInRange(0, 360).toFixed(2));
 }
 
 function toggleRandomize() {
@@ -41,17 +39,8 @@ function toggleRandomize() {
   }
 }
 
-const randomizeButton = document.getElementById('PFD_ONE_RandomizeButton')
+const randomizeButton = document.getElementById('MFD_RandomizeButton')
 randomizeButton.addEventListener('click', toggleRandomize)
 
-const resetAll = document.getElementById('PFD_ONE_ResetAll')
+const resetAll = document.getElementById('MFD_ResetAll')
 resetAll.addEventListener('click', toggleResetAll)
-
-/*
-pfd.setPurpleNeedle(dari 0 sampai 360);
-pfd.setBlueNeedle(dari 0 sampai 360);
-pfd.setGreenNeedle(dari 0 sampai 360);
-pfd.setYellowNeedle(dari 0 sampai 360);
-pfd.setWhiteNeedle(dari 0 sampai 360);
-pfd.setHeading(dari 0 sampai 360);
-*/

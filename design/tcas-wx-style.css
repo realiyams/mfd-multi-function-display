@@ -1,5 +1,4 @@
-.il-pfd-one 
-.il-tcas-ab-container {
+.mfd .tcas-ab-container {
   position: absolute;
   top: 150px;
   right: 7px;
@@ -7,8 +6,7 @@
   color: green;
 }
 
-.il-pfd-one 
-.il-wxnorm-container {
+.mfd .wxnorm-container {
   position: absolute;
   top: 185px;
   right: 7px;

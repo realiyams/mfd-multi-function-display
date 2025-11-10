@@ -1,0 +1,44 @@
+.mfd .top-display-container .time-est-container {
+  position: absolute;
+  width: 70px;
+  height: 112px;
+  left: 325px;
+  border-right: 2px solid gray;
+}
+
+.mfd .time-est-container .time-eta-details {
+  width: 100%;
+  font-weight: bold;
+}
+
+.mfd .time-est-container .time-eta-details .utc {
+  text-align: center;
+  color: green;
+  font-size: 14px;
+}
+
+.mfd .time-est-container .time-eta-details .eta {
+  text-align: center;
+  color: green;
+  font-size: 14px;
+}
+
+.mfd .time-est-container .time-eta-details .sat {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.mfd .time-est-container .time-eta-details .isa {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.mfd .time-est-container .top-gap {
+  padding-top: 5px;
+}
+
+.mfd .time-est-container .top-gap-extra {
+  padding-top: 10px;
+}

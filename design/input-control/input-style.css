@@ -1,4 +1,4 @@
-.il-pfd-one .il-controls-container {
+.mfd .controls-container {
   position: absolute;
   bottom: -800px;
   left: 0px;
@@ -14,19 +14,19 @@
   gap: 10px;
 }
 
-.il-pfd-one .il-slider-container {
+.mfd .slider-container {
   display: flex;
   flex-direction: column;
   flex: 1 1 calc(50% - 10px);
 }
 
-.il-pfd-one label {
+.mfd label {
   display: block;
   font-size: 14px;
   margin-bottom: 5px;
 }
 
-.il-pfd-one button {
+.mfd button {
   margin: 0 5px;
   padding: 10px 20px;
   font-size: 16px;

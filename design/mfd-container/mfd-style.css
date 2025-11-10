@@ -1,4 +1,4 @@
-.il-pfd-one {
+.mfd {
   position: absolute;
   width: 510px;
   height: 530px;
@@ -15,32 +15,27 @@
   border-radius: 10px;
 }
 
-.il-pfd-one 
-#L1 {
+.mfd #L1 {
   top: -2px;
   left: -2px;
 }
 
-.il-pfd-one 
-#L2 {
+.mfd #L2 {
   top: -2px;
   right: -2px;
 }
 
-.il-pfd-one 
-#L3 {
+.mfd #L3 {
   bottom: -2px;
   right: -2px;
 }
 
-.il-pfd-one 
-#L4 {
+.mfd #L4 {
   bottom: -2px;
   left: -2px;
 }
 
-.il-pfd-one 
-.il-pfd-bolt {
+.mfd .mfd-bolt {
   position: absolute;
   width: 25px;
   height: 25px;
@@ -48,8 +43,8 @@
   border-radius: 50%;
   border: 2px solid black;
 }
-.il-pfd-one 
-.il-pfd-bolt-head {
+
+.mfd .mfd-bolt-head {
   position: absolute;
   font-size: 25px;
   color: rgb(17, 14, 14);
@@ -59,20 +54,17 @@
   transform: translate(-50%, -50%);
 }
 
-.il-pfd-one 
-#L6 {
+.mfd #L6 {
   bottom: 5px;
   left: 35px;
 }
 
-.il-pfd-one 
-#L7 {
+.mfd #L7 {
   bottom: 5px;
   right: 35px;
 }
 
-.il-pfd-one 
-.il-dot-container {
+.mfd .dot-container {
   position: absolute;
   width: 14px;
   height: 14px;
@@ -81,16 +73,14 @@
   border-radius: 50%;
 }
 
-.il-pfd-one
-.il-dot {
+.mfd .dot {
   position: absolute;
   top: -5px;
   left: -1px;
   font-size: 15.5px;
 }
 
-.il-pfd-one
-.ilTestButton {
+.mfd .test-button {
   position: absolute;
   bottom: 6px;
   left: 85px;
@@ -98,8 +88,7 @@
   width: 46px;
 }
 
-.il-pfd-one
-.ilMinusButton {
+.mfd .minus-button {
   position: absolute;
   bottom: 5px;
   right: 110px;
@@ -108,8 +97,7 @@
   color: white;
 }
 
-.il-pfd-one
-.ilPlusButton {
+.mfd .plus-button {
   position: absolute;
   bottom: 5px;
   right: 85px;
@@ -117,8 +105,7 @@
   width: 22px;
 }
 
-.il-pfd-one
-.btn {
+.mfd .btn {
   position: absolute;
   font-size: 10px;
   white-space: nowrap;
@@ -128,14 +115,12 @@
   background: linear-gradient(180deg, #333, #666, #333);
 }
 
-.il-pfd-one
-.btn {
+.mfd .btn {
   touch-action: none;
   user-select: none;
 }
 
-.il-pfd-one
-.il_button_test_style {
+.mfd .test-text {
   position: absolute;
   height: 24px;
   width: 45px;
@@ -143,8 +128,7 @@
   color: white;
 }
 
-.il-pfd-one
-.il_button_font_style {
+.mfd .operator-text {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -159,16 +143,14 @@
   color: white;
 }
 
-.il-pfd-one
-.il_text_style {
+.mfd .text-center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
 
-.il-pfd-one
-.kotak5 {
+.mfd .frame {
   position: absolute;
 
   top: 0px;
@@ -190,8 +172,7 @@
 
 }
 
-.il-pfd-one
-.kotak25 {
+.mfd .display {
   position: absolute;
 
   top: 0px;
@@ -207,10 +188,10 @@
   border-radius: 5px;
   border: 2px solid #020202;
   white-space: nowrap;
+
 }
 
-.il-pfd-one 
-.il-pfd-one-off {
+.mfd .mfd-off {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -226,8 +207,7 @@
   z-index: 6;
 }
 
-.il-pfd-one 
-.il-pfd-one-brightness {
+.mfd .mfd-brightness {
   position: absolute;
   top: 0px;
   left: 0px;

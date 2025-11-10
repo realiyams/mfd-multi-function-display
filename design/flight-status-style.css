@@ -1,0 +1,49 @@
+.top-display-container .flights-status-container {
+  position: absolute;
+  height: 112px;
+  width: 325px;
+  border-right: 2px solid gray;
+  color: green;
+}
+
+.mfd .flights-status-container .flight-details {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.mfd .flights-status-container .flight-details tr th {
+  padding: 1px;
+  border-bottom: 1px solid green;
+  text-align: center;
+  font-size: 16px;
+}
+
+.mfd .flights-status-container .flight-details tr td {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mfd .flight-details .row .column {
+  text-align: right;
+}
+
+.mfd .flight-details .top-gap {
+  padding-top: 5px;
+}
+
+.mfd .flight-details .top-gap-extra {
+  padding-top: 10px;
+}
+
+.mfd .flight-details .to-cyan {
+  color: rgba(63, 251, 246, 255);
+}
+
+.mfd .flight-details .row .flight-value-one {
+  text-align: center;
+  font-size: 10px;
+}
+
+.mfd .flight-details .row .flight-value-two {
+  text-align: left;
+}

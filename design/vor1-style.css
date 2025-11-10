@@ -1,6 +1,4 @@
-.il-pfd-one
-.kotak25 
-.il-left-bottom-vor1 {
+.mfd .vor1 {
   position: absolute;
   bottom: 90px;
   left: 0px;
@@ -9,9 +7,7 @@
   padding: 5px;
 }
 
-.il-pfd-one
-.il-left-bottom-vor1
-.il-left-bottom-vor1-icon {
+.mfd .vor1 .icon {
   left: 6px;
   top: 10px;
   position: absolute;
@@ -20,9 +16,7 @@
   font-weight: bold;
 }
 
-.il-pfd-one
-.kotak25 
-.garisBawah7 {
+.mfd .vor1 .line {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -30,9 +24,7 @@
   height: 35px;
 }
 
-.il-pfd-one
-.kotak25 
-.lingkaran13 {
+.mfd .vor1 .circle {
   position: absolute;
   top: 32px;
   left: 16px;
@@ -42,9 +34,7 @@
   border-radius: 50%;
 }
 
-.il-pfd-one
-.il-left-bottom-vor1 
-.il-left-bottom-vor1-details {
+.mfd .vor1 .vor1-details {
   position: absolute;
   right: 5px;
   top: 5px;
@@ -53,4 +43,9 @@
   color: red;
   text-align: right;
   font-weight: bold;
+}
+
+.mfd .vor1 .dme {
+  color: red;
+  font-size: small;
 }
